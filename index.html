@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="firstForm"> <div class="form-group">
+          <p>lists health symptoms linked to high-stress</p>
+          <input type="checkbox" name="healthSymptoms" value="lowEnergy">Low energy<br>
+          <input type="checkbox" name="healthSymptoms" value="headaches">Headaches<br>
+          <input type="checkbox" name="healthSymptoms" value="upsetStomach">Upset stomach<br>
+          <input type="checkbox" name="healthSymptoms" value="tenseMuscles">Tense muscles<br>
+          <input type="checkbox" name="healthSymptoms" value="chestPain">Chest pain<br>
+          <button type="submit" class="btn-info">Submit</button>
+        </div>
+      </form>
+      <form id="secondForm">
+        <div class="form-group">
+          <p>lists warning signs of being negatively affected by stress</p>
+          <input type="checkbox" name="warningSigns" value="sleep">Loss of Sleep<br>
+          <input type="checkbox" name="warningSigns" value="overwhelmed">Feeling Overwhelmed<br>
+          <input type="checkbox" name="warningSigns" value="dryMouth">Dry Mouth<br>
+          <input type="checkbox" name="warningSigns" value="overEating">Over Eating<br>
+          <input type="checkbox" name="warningSigns" value="jitters">Jitters<br>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </div>
+      </form>
+      <form id="thirdForm">
+        <div class="form-group">
+          <p>lists recommended coping methods to deal with stress.</p>
+          <input type="checkbox" name="copingMethod" value="meditation">Meditation<br>
+          <input type="checkbox" name="copingMethod" value="clean">Cleaning<br>
+          <input type="checkbox" name="copingMethod" value="time">Manage Your Time<br>
+          <input type="checkbox" name="copingMethod" value="cat">Pet a Cat<br>
+          <input type="checkbox" name="copingMethod" value="movie">Watch a Movie<br>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </div>
+      </form>
+      <div id="resultHealthSymptoms">
+
+      </div>
+      <div id="resultWarningSigns">
+
+      </div>
+      <div id="resources">
+
+      </div>
+    </div>
+  </body>
+</html>
